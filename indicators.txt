@@ -1,0 +1,17 @@
+SP.POP.1524.TO.UN => 15>PopulationTotal>24 = Target demography
+UIS.NERT.2 => Enrolment in lower secondary education %
+SE.TER.ENRR => Enrolment Tertiary (%) (ERRORS)
+IT.NET.USER.P2 => Internet access per 100 ppl
+
+Additionnal =
+ A = BAR.SEC.CMPT.1519.ZS, Percentage of population age 15-19 with secondary schooling. Completed Secondary
+ B = BAR.SEC.ICMP.1519.ZS, Percentage of population age 15-19 with secondary schooling. Total (Incomplete and Completed Secondary)
+ Incomplete secondary-1519 = B - A
+
+ A2 = BAR.TER.CMPT.2024.ZS, Percentage of population age 20-24 with tertiary schooling. Completed Tertiary
+ B2 = BAR.TER.ICMP.2024.ZS, Percentage of population age 20-24 with tertiary schooling. Total (Incomplete and Completed Tertiary)
+ Incomplete tertiary-2024 = B2 - A2
+
+NY.GDP.PCAP.PP.KD => purchasing power parity - GDP per capita, PPP (constant 2011 international $)
+
+BAR.TER.ICMP.2024.ZS & BAR.SEC.ICMP.1519.ZS can replace SE.TER.ENRR & UIS.NERT.2
